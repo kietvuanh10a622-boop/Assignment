@@ -7,7 +7,7 @@ def calculate_unit_price(diameter_cm, price_usd):
     area_m2 = math.pi * (radius_m ** 2)
     # Return price per square meter
     return price_usd / area_m2
- calculate_unit_price(diameter_cm, price_usd)
+
 def compare_pizzas():
     # Pizza 1
     d1 = float(input("Enter diameter of pizza 1 (cm): "))
@@ -30,6 +30,4 @@ def compare_pizzas():
     else:
         print("Both pizzas have the same unit price.")
 
-# Example of how to run the main pizza program:
-# compare_pizzas()
 compare_pizzas()
