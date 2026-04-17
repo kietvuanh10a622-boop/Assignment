@@ -1,0 +1,6 @@
+Jett,67
+Phoenix,36
+Sova,18
+Reyna,69
+Omen,42
+Killjoy,55
